@@ -11,7 +11,7 @@
 
 ![screenshot](./screenshot2.PNG)
 
-![screenshot](./screenshot3.PNG)
+![screenshot](./Screenshot3.PNG)
 
 ### Getting Started
 
