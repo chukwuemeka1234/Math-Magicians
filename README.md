@@ -5,6 +5,13 @@
 - Make simple Math calculations.
 - Read a random math-related quote.
 
+## Project screenshots
+
+![screenshot](./screenshot.PNG)
+
+![screenshot](./screenshot2.PNG)
+
+![screenshot](./screenshot3.PNG)
 
 ### Getting Started
 
