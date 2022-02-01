@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
 * {
   padding: 0;
   margin: 0;
 }
 
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #293175, #c67beb, #ebb5b9);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navBar h1 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navBar li {
+  text-decoration: none;
+}
+
 .Calc-app {
   display: flex;
   width: 40%;
-  height: 80vh;
+  height: 40vh;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -30,6 +48,10 @@
   border: 1px solid #b4b6c7;
 }
 
+.span-calc {
+  font-size: 2rem;
+}
+
 .numbers {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -42,4 +64,50 @@
 
 .btn-orange {
   background-color: #f3974c;
+}
+
+.active {
+  color: red;
+}
+
+.quoteContent {
+  display: flex;
+  align-self: center;
+  width: 80%;
+  justify-content: center;
+  height: 80vh;
+  align-content: center;
+  flex-direction: column;
+}
+
+.quoteContent p {
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 10vw;
+}
+
+.HomeContent {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.HomeContent p {
+  margin-top: 2rem;
+}
+
+.HomeContent h2 {
+  text-align: center;
+}
+
+span {
+  font-weight: 300;
+}
+
+.letty h2 {
+  padding: 5rem 2rem;
 }
